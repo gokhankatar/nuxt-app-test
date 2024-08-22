@@ -1,5 +1,5 @@
 <template>
-    <v-app-bar class="py-1 px-5 px-sm-10 px-md-15" elevation="2">
+    <v-app-bar class="py-1 bg-transparent px-5 px-sm-10 px-md-15" elevation="2">
         <template v-slot:prepend>
             <NuxtLinkLocale to="/" class="cursor-pointer link d-flex justify-center align-center ga-3">
                 <v-img :src="logoImg" width="50" />
