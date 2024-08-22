@@ -1,0 +1,11 @@
+.transition {
+  transition: all 0.2s ease;
+}
+.transition-lg {
+  transition: all 0.6s ease;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.2;
+}
