@@ -1,21 +1,21 @@
 <template>
   <v-row class="content d-flex justify-center align-center">
-    <div
-      class="px-15 d-flex flex-column justify-center align-center text-center ga-3 ga-sm-5"
-    >
-      <h1 class="text-h3 text-sm-h2 text-md-h1">
-        Nuxt.js is a framework based on Vue.js
-      </h1>
-      <h5 class="text-h5 text-sm-h4 text-md-h3">
-        that offers server-side rendering (SSR), static site generation (SSG), and a
-        complete frontend development experience.
-      </h5>
-      <p class="text-subtitle-1 text-md-h5">
-        It makes Vue.js applications more scalable and SEO-friendly. Nuxt.js also comes
-        with a powerful modular architecture, simplifying tasks like routing, data
-        fetching, and meta management.
-      </p>
-    </div>
+    <v-col cols="12" sm="12" md="6">
+      <div class="d-flex flex-column justify-center align-center text-center ga-3">
+        <h1 class="text-h3 text-sm-h2">
+          Nuxt.js is a framework based on Vue.js
+        </h1>
+        <h5 class="text-h5 text-sm-h4">
+          that offers server-side rendering (SSR), static site generation (SSG), and a
+          complete frontend development experience.
+        </h5>
+        <p class="text-subtitle-1">
+          It makes Vue.js applications more scalable and SEO-friendly. Nuxt.js also comes
+          with a powerful modular architecture, simplifying tasks like routing, data
+          fetching, and meta management.
+        </p>
+      </div>
+    </v-col>
   </v-row>
 </template>
 <script lang="ts" setup>
@@ -33,6 +33,7 @@ const { t, locale, locales, setLocale } = useI18n();
   background-size: cover;
   background-position: center;
 }
+
 .content::before {
   content: "";
   position: absolute;
@@ -44,7 +45,8 @@ const { t, locale, locales, setLocale } = useI18n();
   backdrop-filter: blur(0.1rem);
   z-index: 1;
 }
-.content > * {
+
+.content>* {
   position: relative;
   z-index: 2;
 }
