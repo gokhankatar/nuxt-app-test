@@ -7,7 +7,9 @@
       <div
         class="d-flex flex-column justify-center align-center text-center ga-3 ga-md-5"
       >
-        <h1 class="text-h4 text-sm-h2">Nuxt.js is a framework based on Vue.js</h1>
+        <h1 class="text-h4 text-sm-h2 text-green">
+          Nuxt.js is a framework based on Vue.js
+        </h1>
         <h5 class="text-subtitle-1 text-sm-h4">
           that offers server-side rendering (SSR), static site generation (SSG), and a
           complete frontend development experience.
